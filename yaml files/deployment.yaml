@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: task-ui
-          image: askpocregistry.azurecr.io/todoui:1
+          image: askpocregistry.azurecr.io/todoui:2
           ports:
             - containerPort: 80  # Change to 3001 if your container uses `serve`
 ---
